@@ -4,7 +4,7 @@ import logging
 
 import requests as r
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "aws404"
 
 _LOGGER = logging.getLogger(__name__)
@@ -115,7 +115,7 @@ class SolarAnalyticsApiConnection:
     ) -> dict:
         """Make a site status request to the API."""
         return self._make_request(
-            f"/api/v3/site_status/{site_id}",
+            f"v3/site_status/{site_id}",
             params={
                 "start_date": start_date,
                 "end_date": end_date,

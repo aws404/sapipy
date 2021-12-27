@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='sapipy',
-    version='0.1.0',    
+    version='0.1.1',    
     description='A Python interface for the Solar Analytics API',
     long_description='A Python interface for the Solar Analytics API',
     url='https://github.com/aws404/sapipy',
